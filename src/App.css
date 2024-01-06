@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Buhid&family=Poppins:ital,wght@1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav div {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #663399; /* Custom purple color */
+  
+}
+
+
+
+.circle-svg {
+  display: block;
+  margin: 25px;
+}
+
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #ddd;
+  stroke: lightgray;
+}
+
+.circle-progress {
+  stroke: url(#circleGradient);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ball{
+  fill: white;
+}
+
+.circle-text {
+  font-size: 3em;
+  font-weight: bold;
+  
+  fill: white;
+
+}
