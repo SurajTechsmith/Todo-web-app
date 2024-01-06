@@ -18,7 +18,8 @@ function App() {
   const todos = useSelector((state) => state.todos.todo);
 
   const completedTasks = todos.filter((task) => task.status === true);
-  const percentageCompleted = (completedTasks.length / todos.length) * 100 || 0;
+  const percentageCompleted = Math.floor((completedTasks.length / todos.length) * 100) || 0;
+
 
   // Calculate number of tasks
   const numberOfTasks = todos.length;
