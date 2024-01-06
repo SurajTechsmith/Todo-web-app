@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-Check out the live demo [here]([https://your-username.github.io/repo-name](https://todo-web-app-gilt.vercel.app/).
+Check out the live demo [here](https://todo-web-app-gilt.vercel.app/).
 
 ## Overview
 
